@@ -1,0 +1,29 @@
+{
+  "name": "drag-drag",
+  "version": "1.0.0",
+  "description": "There is a drag and drop tool",
+  "main": "./dist/drag-drag-es.min.js",
+  "files": ["/dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jscodev/drag-drag.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "javascript",
+    "drag",
+    "animation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "rollup": "^2.48.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
