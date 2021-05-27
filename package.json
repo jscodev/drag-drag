@@ -1,9 +1,11 @@
 {
   "name": "drag-drag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "There is a drag and drop tool",
   "main": "./dist/drag-drag-es.min.js",
-  "files": ["/dist"],
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jscodev/drag-drag.git"
